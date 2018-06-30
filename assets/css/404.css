@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:700);
+
+#FFFFFF: #FFFFFF;
+$color2: #342643;
+#1FA9D6: #1FA9D6;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  background: url(https://i.imgur.com/mmVZxbz.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  background-color: $color2;
+  height: 100%;
+}
+
+.text-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 6em;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.subtitle {
+  font-size: 40px;
+  font-weight: 700;
+  color: #342643;
+}
+
+.buttons {
+  margin: 30px;
+}
+a.button {
+  font-weight: 700;
+  border: 2px solid #FFFFFF;
+  text-decoration: none;
+  padding: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 26px;
+  transition: all 0.2s ease-in-out;
+
+
+}
+
+a:hover {
+  background-color: #342643;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
